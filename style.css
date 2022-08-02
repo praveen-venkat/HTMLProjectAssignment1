@@ -1,0 +1,80 @@
+body {
+  background-color: #2B2922;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+.logo {
+  padding:20px
+}
+.list li {
+  display: inline-block;
+  color: #fff;
+}
+
+.list {
+  margin: -70px 0px 0px 300px
+
+}
+
+.list-item {
+  padding-right: 80px;
+}
+
+.button-small {
+  float: right;
+  margin : -20px 50px 0px 0px;
+  padding: 10px 30px;
+  color: #8E7F34;
+  border: 1px solid #8E7F34;
+  border-radius: 10px;
+  background-color: #2B2922;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+
+.hero-heading {
+  margin-top: 20%;
+  font-size: 45px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.hero-body {
+  color: #FFF;
+  margin-top: 23%;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.justice-logo {
+  /* color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+  height: 30% ;
+}
+
+.large-prev {
+  width: 30%;
+  height: 20%;
+  background-color: #fff;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+background-color: red;  
+  }
+}
